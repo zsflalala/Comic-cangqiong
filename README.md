@@ -13,7 +13,7 @@ aiofiles 22.1.0
 
 ## Download
 
-You can download my download comic pictures from [Baidu Netdisk](https://pan.baidu.com/s/1UuH194wLiVPf_TC291HrnA?pwd=D2SE) (Code: D2SE).
+You can download my download comic pictures from [Baidu Netdisk](链接：https://pan.baidu.com/s/1_EwKlxNtsRTYa2YMhKEAuw?pwd=dpcq) (Code: dpcq).
 
 ## 声明
 本项目仅供学习使用，为练习python异步协程爬虫，该网站漫画以图片形式存储在网页源代码中，适合初级入门学者爬取，故作为练手，不得作为商业化使用。
