@@ -9,7 +9,7 @@ import re
     webp windows不能够通过图片打开,改后缀名成jpg即可,批处理文件为webp2jpg.py
 '''
 
-# 异步获取 线程池下载
+# 异步获取所有图片的下载链接
 async def get_comic_url(file_path):
     for page in range(0,570):
         url = f'https://cocomanga.org/manga/doupocangqiong-zhiyinmankerenxiang/0_{page}/'
@@ -29,7 +29,7 @@ async def get_comic_url(file_path):
     #     async with aiofiles.open('./斗破苍穹.txt','a',encoding='utf-8') as fp:
     #         await fp.write(pic_name + ',' + img_url + '\n')
     
-
+# 异步下载
 async def pic_download(pic_name,img_url,semaphore):
     async with semaphore:
         async with aiohttp.ClientSession() as session:
